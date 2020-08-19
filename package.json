@@ -1,0 +1,30 @@
+{
+  "name": "ExploringES6",
+  "version": "1.0.0",
+  "description": "Welcome everyone. I am learning ECMAScript 2015 (ES6) from the textbook Exploring ES6. This repository has some of the codes I practiced while learning from the book along with unit testing using Jest. Please do reach out to me if there is anything I can help with.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wael9823/ExploringES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wael9823/ExploringES6/issues"
+  },
+  "homepage": "https://github.com/wael9823/ExploringES6#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+TN:
+SF:Chapter6\hexNumbers.js
+FN:1,hexToDec
+FN:5,decToHex
+FNF:2
+FNH:2
+FNDA:1,hexToDec
+FNDA:1,decToHex
+DA:2,1
+DA:6,1
+DA:9,1
+DA:10,1
+LF:4
+LH:4
+BRF:0
+BRH:0
+end_of_record
