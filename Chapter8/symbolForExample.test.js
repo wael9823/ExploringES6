@@ -7,7 +7,7 @@ describe('Symbols.for and its related concepts', () => {
     it('We can get the key of symbol using Symbol.keyFor', () => {
         expect(getKeyofSym(Symbol.for(123))).toEqual("123");
     });
-     it('Object properties that are symbols are shown in Reflect.keys', () => {
+     it('Object properties that are symbols are not shown in Object.keys', () => {
         expect(getObjProps()).toStrictEqual([ 'name', 'age']);
     });
     
