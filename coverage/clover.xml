@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597834427512" clover="3.2.0">
-  <project timestamp="1597834427512" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12" elements="42" coveredelements="42" complexity="0" loc="30" ncloc="30" packages="3" files="5" classes="5"/>
+<coverage generated="1597843397261" clover="3.2.0">
+  <project timestamp="1597843397261" name="All files">
+    <metrics statements="52" coveredstatements="52" conditionals="6" coveredconditionals="6" methods="14" coveredmethods="14" elements="72" coveredelements="72" complexity="0" loc="52" ncloc="52" packages="3" files="6" classes="6"/>
     <package name="Chapter6">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="epsilon.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter6\epsilon.js">
@@ -31,7 +31,32 @@
       </file>
     </package>
     <package name="Chapter8">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <metrics statements="39" coveredstatements="39" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+      <file name="JSONsymbols.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter8\JSONsymbols.js">
+        <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
       <file name="symbolForExample.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter8\symbolForExample.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="1" type="stmt"/>
