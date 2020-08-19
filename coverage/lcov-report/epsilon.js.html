@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for hexNumbers.js</title>
+    <title>Code coverage report for epsilon.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> hexNumbers.js</h1>
+        <h1><a href="index.html">All files</a> epsilon.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -74,17 +74,17 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span></td><td class="text"><pre class="prettyprint lang-js">function hexToDec(decNum){
-    return (decNum).toString(10);
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">function normalAdd(x,y,res) {
+    return x + y === res;
 }
 &nbsp;
-function decToHex(hexNum){
-    return (hexNum).toString(16);
+function epsEquAdd(x,y,res) {
+    return Math.abs((x+y)-res) &lt; Number.EPSILON;
 }
 &nbsp;
-module.exports.hexToDec = hexToDec;
-module.exports.decToHex = decToHex;</pre></td></tr></table></pre>
+module.exports.normalAdd = normalAdd;
+module.exports.epsEquAdd = epsEquAdd;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
