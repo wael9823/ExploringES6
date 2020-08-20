@@ -1,7 +1,7 @@
 const greetPerson = require("./multiLineStr");
 
-describe('Symbols in correlation with JSON', () => {
-    it('Symbols as values of object properties can be sent using JSON', () => {
+describe('Backticks in JS helps us make template literals', () => {
+    it('Template literals can store multiple lines and interpolate strings', () => {
         expect(greetPerson('Wael')).toBe(
 `Hello Everyone!
 My name is "WAEL".

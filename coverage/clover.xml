@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597904676130" clover="3.2.0">
-  <project timestamp="1597904676130" name="All files">
-    <metrics statements="55" coveredstatements="55" conditionals="6" coveredconditionals="6" methods="15" coveredmethods="15" elements="76" coveredelements="76" complexity="0" loc="55" ncloc="55" packages="4" files="7" classes="7"/>
+<coverage generated="1597906135221" clover="3.2.0">
+  <project timestamp="1597906135221" name="All files">
+    <metrics statements="57" coveredstatements="57" conditionals="6" coveredconditionals="6" methods="16" coveredmethods="16" elements="79" coveredelements="79" complexity="0" loc="57" ncloc="57" packages="4" files="8" classes="8"/>
     <package name="Chapter6">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="epsilon.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter6\epsilon.js">
@@ -82,12 +82,17 @@
       </file>
     </package>
     <package name="Chapter9">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="multiLineStr.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter9\multiLineStr.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="taggedTemplate.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter9\taggedTemplate.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
   </project>
