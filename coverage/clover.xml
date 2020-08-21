@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597987878978" clover="3.2.0">
-  <project timestamp="1597987878979" name="All files">
-    <metrics statements="122" coveredstatements="122" conditionals="13" coveredconditionals="12" methods="36" coveredmethods="36" elements="171" coveredelements="170" complexity="0" loc="122" ncloc="122" packages="6" files="14" classes="14"/>
+<coverage generated="1597993031161" clover="3.2.0">
+  <project timestamp="1597993031162" name="All files">
+    <metrics statements="127" coveredstatements="127" conditionals="13" coveredconditionals="12" methods="39" coveredmethods="39" elements="179" coveredelements="178" complexity="0" loc="127" ncloc="127" packages="7" files="15" classes="15"/>
     <package name="Chapter10">
       <metrics statements="39" coveredstatements="39" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13"/>
       <file name="constObject.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter10\constObject.js">
@@ -89,6 +89,17 @@
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter13">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="thisArrow.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter13\thisArrow.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter6">
