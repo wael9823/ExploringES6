@@ -5,7 +5,7 @@ function outerFunc() {
         // console.log(num); logs 3
         numStorer = num;
         return num;
-    };
+    }
    
     // This is the TDZ and
     // accessing myVar causes a ReferenceError

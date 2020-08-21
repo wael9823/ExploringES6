@@ -1,4 +1,4 @@
-const { getSpiderAunt, getSpiderName, getSpiderEnemies } = require("./destructuring");
+const { getSpiderAunt, getSpiderName, getSpiderEnemies, getSpiderHobby } = require("./destructuring");
 
 describe('Destructuring can be used to get properties of objects', () => {
     it('The name of my spiderman object is peter', () => {
@@ -9,5 +9,8 @@ describe('Destructuring can be used to get properties of objects', () => {
     });
     it('sandman and crusher are spidermans enemies', () => {
         expect(getSpiderEnemies()).toEqual(['sandMan','Crusher']);
+    });
+    it('Spiderman hobby is climbing walls', () => {
+        expect(getSpiderHobby()).toEqual('climbing walls');
     });
 });

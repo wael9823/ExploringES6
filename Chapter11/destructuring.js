@@ -10,8 +10,8 @@ const mySpiderMan = {
 }
 
 function getSpiderName() {
-    const { name: spiderName } = mySpiderMan;
-    return spiderName;
+    const { name } = mySpiderMan; // Property value shorthands
+    return name;
 }
 
 function getSpiderAunt() {
@@ -24,6 +24,12 @@ function getSpiderEnemies() {
     return spiderEnemies;
 }
 
+function getSpiderHobby() {
+    const {hobby: spiderHobby='climbing walls'} = mySpiderMan;
+    return spiderHobby;
+}
+
 module.exports.getSpiderName = getSpiderName;
 module.exports.getSpiderAunt = getSpiderAunt;
 module.exports.getSpiderEnemies = getSpiderEnemies;
+module.exports.getSpiderHobby = getSpiderHobby;
