@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598259194839" clover="3.2.0">
-  <project timestamp="1598259194840" name="All files">
-    <metrics statements="218" coveredstatements="211" conditionals="14" coveredconditionals="13" methods="71" coveredmethods="65" elements="303" coveredelements="289" complexity="0" loc="218" ncloc="218" packages="10" files="21" classes="21"/>
+<coverage generated="1598264386953" clover="3.2.0">
+  <project timestamp="1598264386953" name="All files">
+    <metrics statements="231" coveredstatements="224" conditionals="16" coveredconditionals="15" methods="75" coveredmethods="69" elements="322" coveredelements="308" complexity="0" loc="231" ncloc="231" packages="10" files="22" classes="22"/>
     <package name="Chapter10">
       <metrics statements="39" coveredstatements="39" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13"/>
       <file name="constObject.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter10\constObject.js">
@@ -179,7 +179,7 @@
       </file>
     </package>
     <package name="Chapter19">
-      <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <metrics statements="46" coveredstatements="46" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
       <file name="mapsExample.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter19\mapsExample.js">
         <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -218,6 +218,22 @@
         <line num="19" count="2" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="weakMapExample.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter19\weakMapExample.js">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter6">
