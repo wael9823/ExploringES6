@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598337705249" clover="3.2.0">
-  <project timestamp="1598337705249" name="All files">
-    <metrics statements="260" coveredstatements="252" conditionals="23" coveredconditionals="21" methods="85" coveredmethods="78" elements="368" coveredelements="351" complexity="0" loc="260" ncloc="260" packages="11" files="25" classes="25"/>
+<coverage generated="1598419133278" clover="3.2.0">
+  <project timestamp="1598419133278" name="All files">
+    <metrics statements="274" coveredstatements="266" conditionals="23" coveredconditionals="21" methods="87" coveredmethods="80" elements="384" coveredelements="367" complexity="0" loc="274" ncloc="274" packages="12" files="26" classes="26"/>
     <package name="Chapter10">
       <metrics statements="39" coveredstatements="39" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13"/>
       <file name="constObject.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter10\constObject.js">
@@ -275,6 +275,26 @@
         <line num="12" count="2" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter22">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="generator.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter22\generator.js">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter6">
