@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598423689103" clover="3.2.0">
-  <project timestamp="1598423689103" name="All files">
-    <metrics statements="287" coveredstatements="279" conditionals="23" coveredconditionals="21" methods="90" coveredmethods="83" elements="400" coveredelements="383" complexity="0" loc="287" ncloc="287" packages="12" files="27" classes="27"/>
+<coverage generated="1598510183558" clover="3.2.0">
+  <project timestamp="1598510183559" name="All files">
+    <metrics statements="298" coveredstatements="290" conditionals="27" coveredconditionals="25" methods="94" coveredmethods="87" elements="419" coveredelements="402" complexity="0" loc="298" ncloc="298" packages="13" files="29" classes="29"/>
     <package name="Chapter10">
       <metrics statements="39" coveredstatements="39" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13"/>
       <file name="constObject.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter10\constObject.js">
@@ -311,6 +311,26 @@
         <line num="19" count="4" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Chapter25">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="chainingPromises.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter25\chainingPromises.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="simplePromise.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter25\simplePromise.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
     <package name="Chapter6">
