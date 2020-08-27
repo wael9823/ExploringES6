@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598510183558" clover="3.2.0">
-  <project timestamp="1598510183559" name="All files">
-    <metrics statements="298" coveredstatements="290" conditionals="27" coveredconditionals="25" methods="94" coveredmethods="87" elements="419" coveredelements="402" complexity="0" loc="298" ncloc="298" packages="13" files="29" classes="29"/>
+<coverage generated="1598515763265" clover="3.2.0">
+  <project timestamp="1598515763265" name="All files">
+    <metrics statements="318" coveredstatements="310" conditionals="35" coveredconditionals="33" methods="104" coveredmethods="97" elements="457" coveredelements="440" complexity="0" loc="318" ncloc="318" packages="13" files="31" classes="31"/>
     <package name="Chapter10">
       <metrics statements="39" coveredstatements="39" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13"/>
       <file name="constObject.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter10\constObject.js">
@@ -314,7 +314,19 @@
       </file>
     </package>
     <package name="Chapter25">
-      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <metrics statements="31" coveredstatements="31" conditionals="12" coveredconditionals="12" methods="14" coveredmethods="14"/>
+      <file name="chainingPromisFuncs.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter25\chainingPromisFuncs.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
       <file name="chainingPromises.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter25\chainingPromises.js">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="2" count="3" type="stmt"/>
@@ -322,6 +334,20 @@
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="promiseMethods.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter25\promiseMethods.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
       <file name="simplePromise.js" path="C:\Users\USER\Desktop\ExploringES6\Chapter25\simplePromise.js">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
